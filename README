@@ -1,0 +1,13 @@
+To build, type "make".
+
+Let's say your JTAG/UART is on /dev/ttyUSB0, and you have a u-boot.kwb you
+want to test.
+
+1. Power off the Kirkwood SoC
+2. Make sure any terminal emulator is disconnected
+3. Run the program as follows
+
+  $ ./kwuartboot /dev/ttyUSB0 uboot.kwb
+
+4. Power on the Kirkwood SoC
+5. Start the terminal emulator - u-boot should be running.
