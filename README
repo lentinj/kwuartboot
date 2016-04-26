@@ -1,3 +1,8 @@
+NB: This is not written by me. The original site used to be hosted here:
+http://www.solinno.co.uk/public/kwuartboot/
+
+-------------------------------------------------------------------------------
+
 To build, type "make".
 
 Let's say your JTAG/UART is on /dev/ttyUSB0, and you have a u-boot.kwb you
